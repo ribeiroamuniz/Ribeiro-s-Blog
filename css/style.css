@@ -2,17 +2,32 @@
     margin: 5px;
 }
 
+
+
+.container{
+    width: 100%;
+}
+
 nav{
     position: fixed;
-    display: flex;
-    padding: 10px;
+    padding: 0%;
+    width: 100%;
+    color: white;
     background-color: rgb(255, 184, 219);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between ;
 }
 
 ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 0;
+    text-align: right;
+    margin-top: -8%;
+    text-align: end;
+    z-index: 1;
 }
 
 li{
@@ -27,14 +42,437 @@ ul li:last-child {
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: white;
 }
 
 a:hover{
     color: rgb(255, 29, 180);
 }
 
-#logo{
-    margin-top: 12px;
-    width: 30%;
+#logo{ 
+    width: 40%;
+    margin-top: 3%;
+}
+
+#perfil{
+    position: absolute;
+    width: 25%;
+    border-radius: 1000px;
+    margin-left: 36%;
+    margin-bottom: 10%;
+}
+
+#textBio{
+    position: relative;
+    text-align: center;
+    right: -27%;
+    color: black;
+    margin-top: 24%;
+    width: 50%;
+    text-shadow: 2px 2px 4px rgba(75, 48, 56, 0.39);
+    max-width: 90%;
+    margin-bottom: 0%;
+}
+
+#textBio h4{
+    color: rgb(255, 59, 173);
+}
+
+main{
+    margin-bottom: 15%;
+}
+
+#biografia{
+    align-items: center;
+    justify-content: center;
+    display:flexbox;
+}
+
+#blocoUm{
+    margin-top: 50%;
+    border-radius: 3px;
+    margin: 0;
+    border-color: rgb(255, 59, 173);
+}
+
+#bolodecenoura{
+    width: 60%;
+    border-radius: 20px;
+}
+
+#slime{
+    width: 61%;
+    border-radius: 20px;
+    height: 220px;
+}
+
+#cont{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+    /* border: 1px solid rgb(255, 58, 222);
+    padding: 20px;*/
+    border-radius: 12px; 
+    margin: 5px;
+    width: 100%;
+    margin-top: -10%;
+}
+
+#cont2{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+    /* border: 1px solid rgb(255, 58, 222);
+    padding: 20px;*/
+    border-radius: 12px; 
+    margin: 7px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 100px;
+    height: 380px;
+}
+
+hr{
+    color: rgba(0, 0, 0, 0.418);
+}
+
+#textbolo{
+    width: 68%;
+    margin-left: 32%;
+    margin-top: -19%;
+}
+
+#textjogo{
+    width: 68%;
+    margin-left: 32%;
+    margin-top: -16%;
+}
+
+#textbolo h2{
+    margin-bottom: 18px;
+}
+
+#textjogo h2{
+    margin-bottom: 18px;
+}
+
+#textbolo{
+    margin-bottom: 17px;
+}
+
+#vermais{
+    width: 15%;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(255, 59, 173);
+}
+
+#vermaisjogo{
+    width: 15%;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(255, 59, 173);
+}
+
+#vermais :hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
+    color: white;
+}
+
+#vermaisjogo :hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.726);
+    color: white;
+}
+
+.dropdown{
+    margin-left: 80%;
+    top: -70px;
+}
+
+footer{
+    background-color:rgb(34, 34, 34) ;
+    color: white;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 15%;
+    height: 250px;
+    padding: 20px;
+    position: absolute;
+}
+
+footer h4{
+    position: absolute;
+    z-index: 1;
+    margin-left: 0%;
+    margin-bottom: 15px;
+}
+
+#info{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 5px;
+    margin-top: 9%;
+    text-align: center;
+    margin-left: -0.2%;
+    font-size: 68%;
+}
+
+#termo{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 5px;
+    margin-top: 10.6%;
+    text-align: center;
+    margin-left: -0.2%;
+    font-size: 68%;
+}
+
+#doismilevintequatro{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 5px;
+    margin-top: 12%;
+    text-align: center;
+    margin-left: -0.2%;
+    font-size: 68%;
+}
+
+#github{
+    position: absolute;
+    z-index: 1;
+    width: 3.5%;
+    display: block;
+    margin-left: 46.6%;
+    margin-top: 4%;
+}
+
+#github :hover{
+    cursor: pointer;
+}
+
+/* começo da segunda pagina */
+
+#linkslime{
+    padding: 20px;
+    margin-top: 3%;
+}
+
+#rancherslime{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 0.5%;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    height: 315px;
+    padding: 20px;
+    background-color: rgba(252, 109, 133, 0.253);
+}
+
+#rancherslime h2{
+    color: rgb(221, 20, 221);
+    text-shadow: 2px 2px 4px rgba(255, 0, 140, 0.452);
+    margin-bottom: 14px;
+}
+
+#descriptiongame{
+    color: rgb(68, 67, 67);
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+#baixar{
+    background-color: black;
+    border-radius: 5px;
+}
+
+#desenvolvedor{
+    line-height: 10px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(223, 77, 159, 0.452);
+    margin-bottom: 26px;
+}
+
+#trailer{
+    position: absolute;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: -8%;
+}
+
+@media (max-width: 767px) {
+    #perfil {
+        display: none; 
+    }
+    #textBio{
+        width: 90%;
+        text-align: center;
+        left: 8%;
+        margin-top: -5%;
+    }
+    #textbolo p{
+        display: none;
+    }
+    #textjogo p{
+        display: none;
+    }
+    #bolodecenoura{
+        width: 90%;
+    }
+    #slime{
+        width: 90%;
+    }
+    #cont{
+        margin-bottom: 40px;
+        height: 440px;
+    }
+    #cont2{
+        height: 430px;
+    }
+    #vermais{
+        position: absolute;
+        width: 60%;
+        text-align: center;
+        margin-left: -15%;
+        margin-top: 3%;
+    }
+    #vermaisjogo{
+        width: 100%;
+        text-align: center;
+        margin-left: -25%;
+        margin-top: 14%;
+    }
+    ul{
+        display: none;
+    }
+    #logo{
+        width: 50%;
+        margin-left: 0%;
+    }
+    nav{
+        height: 120px;
+    }
+    #textbolo h2{
+        margin-top: 35%;
+        margin-right: 60%;
+        margin-left: -46%
+    }
+    #textjogo h2{
+        margin-top: 26%;
+        margin-right: 60%;
+        margin-left: -46%
+    }
+    footer{
+        background-color:rgb(34, 34, 34) ;
+        color: white;
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+        margin-top: 180%;
+        height: 220px;
+        padding: 20px;
+        position: absolute;
+    }
+    
+    footer h4{
+        position: absolute;
+        z-index: 1;
+        margin-left: -1%;
+    }
+    
+    #info{
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 5px;
+        margin-top: 21%;
+        text-align: center;
+        margin-left: -0.2%;
+        font-size: 68%;
+    }
+    
+    #termo{
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 5px;
+        margin-top: 26%;
+        text-align: center;
+        margin-left: -0.2%;
+        font-size: 68%;
+    }
+    
+    #doismilevintequatro{
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 5px;
+        margin-top: 31%;
+        text-align: center;
+        margin-left: -0.2%;
+        font-size: 68%;
+    }
+    
+    #github{
+        position: absolute;
+        z-index: 1;
+        width: 10%;
+        display: block;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+
+    /* Começo da segunda pagina */
+
+    #linkslime{
+        padding: 20px;
+        margin-top: 3%;
+        width: 100%;
+        margin-bottom: 50px
+    }
+    
+    #rancherslime{
+        position: absolute;
+        margin-left: -3%;
+        margin-top: 0.5%;
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+        height: 380px;
+        padding: 20px;
+        width: 97%;
+        background-color: rgba(252, 109, 133, 0.253);
+        margin-top: 90%;
+    }
+    
+    #rancherslime h2{
+        color: rgb(221, 20, 221);
+        text-shadow: 2px 2px 4px rgba(255, 0, 140, 0.452);
+        margin-bottom: 14px;
+    }
+    
+    #descriptiongame{
+        color: rgb(68, 67, 67);
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    
+    #baixar{
+        background-color: black;
+        border-radius: 5px;
+    }
+    
+    #desenvolvedor{
+        line-height: 10px;
+        color: black;
+        text-shadow: 2px 2px 4px rgba(223, 77, 159, 0.452);
+        margin-bottom: 26px;
+    }
+    
+    #trailer{
+        position: absolute;
+        width: 97%;
+        border-radius: 10px;
+        margin-left: -8%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown {
+        display: none;
+    }
 }
